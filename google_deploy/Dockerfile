@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install -y \
 RUN pip3 install alembic pymysql
 
 RUN wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O /tools/cloud_sql_proxy \
-    && chmod +x /repo/cloud_sql_proxy
+    && chmod +x /tools/cloud_sql_proxy
