@@ -1,0 +1,9 @@
+version: '3'
+services:
+  galileo-web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: google.com
+    environment: 
+        DISPLAY: ${LOCALIP}:0.0
